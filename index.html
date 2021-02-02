@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title> Kwitter </title>
         <link rel="stylesheet" type = "text/css" href="Kwitter.css">
 
         <script src="Kwitter.js"></script>
@@ -8,11 +9,20 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<body>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js">
+    </script> <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>  
+  <body>
     <center>
+        <h1 class="header"> Lets Chat <sup> <img src="Chat App Image.jpg" width="50px" height="50px"> </sup></h1>
     <input type="text" id="user_name" class="form-control" placeholder="User Name">
     <button id="login_button" class="btn btn-primary" onclick="addUser()"> Log In </button>
 </center>
+
+<script src="kwitter.js"></script>
 </body>
-    </head>
+
 </html>

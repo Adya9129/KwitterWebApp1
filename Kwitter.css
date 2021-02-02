@@ -5,3 +5,10 @@ body {
     width: 300px;
     margin-top: 100px;
 }
+#room_name {
+    width: 300px;
+    margin-top: 100px;
+}
+label {
+    font-size: 30px;
+}
