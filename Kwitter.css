@@ -12,3 +12,6 @@ body {
 label {
     font-size: 30px;
 }
+.user_tick {
+    width : 20px;
+}
